@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 47px 0 0 42px;
+}
+
+a {
+    margin-right: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;   
+    cursor: pointer; 
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin-top: 47px;
+    
+    
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 47px 0 55px 0;
+    
+}
+
+.link {
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+
+}
+
+img {
+    display: inline-block;
+    margin: 163px 0 0 121px;
+}
+
+div {
+    display: inline-block;
+    margin: 259px 57px 518px 96px;
+    
+}
+
+.button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+    img {
+        display: block;
+        position: absolute;
+        bottom: 25%;
+        margin: 0px;
+        width: 80%;
+        left: 10%;  
+    }
+
+    a {
+        display: none;
+    }
+
+    div {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .button {
+        display: inline-block;
+        position: absolute;
+        right: 20px; 
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+   
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        width: 100%;
+        height:auto;
+        padding: 20px 12px 0px;
+       
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 0px;
+        
+        
+    }
+
+    .link {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        
+
+    }
+}
